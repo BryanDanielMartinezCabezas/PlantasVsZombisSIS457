@@ -147,6 +147,7 @@
     <ClCompile Include="SpawnerZombis.cpp" />
     <ClCompile Include="Tabla.cpp" />
     <ClCompile Include="Zombi.cpp" />
+    <ClCompile Include="ZombieSaltarin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AcumuladorMoneedas.h" />
@@ -168,6 +169,7 @@
     <ClInclude Include="SpawnerZombis.h" />
     <ClInclude Include="Tabla.h" />
     <ClInclude Include="Zombi.h" />
+    <ClInclude Include="ZombieSaltarin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
