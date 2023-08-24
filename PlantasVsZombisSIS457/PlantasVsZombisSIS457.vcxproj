@@ -129,12 +129,17 @@
   <ItemGroup>
     <ClCompile Include="AcumuladorMoneedas.cpp" />
     <ClCompile Include="AcumuladorSoles.cpp" />
+    <ClCompile Include="BonkChoi.cpp" />
     <ClCompile Include="Casa.cpp" />
     <ClCompile Include="Cesped.cpp" />
     <ClCompile Include="Escenario.cpp" />
+    <ClCompile Include="Girasol.cpp" />
+    <ClCompile Include="LanzaGuisante.cpp" />
+    <ClCompile Include="LechugaIceberg.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Moneda.cpp" />
     <ClCompile Include="Pala.cpp" />
+    <ClCompile Include="Petacereza.cpp" />
     <ClCompile Include="Planta.cpp" />
     <ClCompile Include="Podadora.cpp" />
     <ClCompile Include="principal.cpp" />
@@ -147,17 +152,27 @@
     <ClCompile Include="SpawnerZombis.cpp" />
     <ClCompile Include="Tabla.cpp" />
     <ClCompile Include="Zombi.cpp" />
+    <ClCompile Include="ZombiAntorcha.cpp" />
+    <ClCompile Include="ZombiCono.cpp" />
     <ClCompile Include="ZombieSaltarin.cpp" />
+    <ClCompile Include="ZombiExcavador.cpp" />
+    <ClCompile Include="ZombiGallina.cpp" />
+    <ClCompile Include="ZombiPuerta.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AcumuladorMoneedas.h" />
     <ClInclude Include="AcumuladorSoles.h" />
+    <ClInclude Include="BonkChoi.h" />
     <ClInclude Include="Casa.h" />
     <ClInclude Include="Cesped.h" />
     <ClInclude Include="Escenario.h" />
+    <ClInclude Include="Girasol.h" />
+    <ClInclude Include="LanzaGuisante.h" />
+    <ClInclude Include="LechugaIceberg.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Moneda.h" />
     <ClInclude Include="Pala.h" />
+    <ClInclude Include="Petacereza.h" />
     <ClInclude Include="Planta.h" />
     <ClInclude Include="Podadora.h" />
     <ClInclude Include="Proyectil.h" />
@@ -169,7 +184,12 @@
     <ClInclude Include="SpawnerZombis.h" />
     <ClInclude Include="Tabla.h" />
     <ClInclude Include="Zombi.h" />
+    <ClInclude Include="ZombiAntorcha.h" />
+    <ClInclude Include="ZombiCono.h" />
     <ClInclude Include="ZombieSaltarin.h" />
+    <ClInclude Include="ZombiExcavador.h" />
+    <ClInclude Include="ZombiGallina.h" />
+    <ClInclude Include="ZombiPuerta.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

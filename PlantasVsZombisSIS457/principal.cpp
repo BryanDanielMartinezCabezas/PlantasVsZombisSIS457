@@ -9,6 +9,12 @@
 #include "Moneda.h"
 #include "Sol.h"
 #include "SobreSemilla.h"
+#include "ZombieSaltarin.h"
+#include "ZombiAntorcha.h"
+#include "ZombiCono.h"
+#include "ZombiExcavador.h"
+#include "ZombiGallina.h"
+#include "ZombiPuerta.h"
 int main()
 {
     Planta planta1("Imagen/Planta");
@@ -71,6 +77,7 @@ int main()
     cout << "El sobre contiene al semilla de " << sobreSemilla01.nombreSemilla << endl;
     cout << "El sobre tiene un valor de " << sobreSemilla01.getValor() << endl;
     sobreSemilla01.carga();
+    cout << endl;
 
     Tabla tablaA("Imagen/Tabla");
     cout << "Se creo la tabla   " << tablaA.getNombre() << endl;
@@ -79,6 +86,7 @@ int main()
     tablaA.mostrarTabla();
     cout << endl;
 
+    return 0;
 
 
 }

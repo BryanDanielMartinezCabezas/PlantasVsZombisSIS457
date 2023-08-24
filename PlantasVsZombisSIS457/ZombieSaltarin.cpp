@@ -7,6 +7,4 @@ void ZombieSaltarin::salta()
 		posicionY += direccionY * velocidadMovimiento;
 		//salta segun su velocidad
 	}
-
-
 }
