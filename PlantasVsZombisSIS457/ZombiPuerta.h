@@ -5,7 +5,7 @@ class ZombiPuerta : public Zombi
 	int puerta;
 public:
 	//Constructores
-	ZombiPuerta() {};
+	ZombiPuerta();
 	//Metodos accesores
 	int getPuerta() { return puerta; }
 	void getPuerta(int _puerta) { puerta = _puerta; }

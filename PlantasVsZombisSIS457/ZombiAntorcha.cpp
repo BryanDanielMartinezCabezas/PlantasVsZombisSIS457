@@ -1,4 +1,5 @@
 #include "ZombiAntorcha.h"
+int quema;
 void ZombiAntorcha::quema()
 {
 	direccionY = 1;

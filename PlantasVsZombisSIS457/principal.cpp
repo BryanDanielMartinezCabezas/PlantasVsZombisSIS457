@@ -35,7 +35,17 @@ int main()
     cout << "La posicion X del zombie es: " << zombi1.getPosicionX() << endl;
     zombi1.aparecer();
     zombi1.moverse();
+    cout << endl;
 
+    Zombi zombi2("Zombie Antorcha", 100, 999, 30, 75, 0, 0);
+    cout << "Se creo el zombi   " << zombi2.nombre << endl;
+    cout << "El zombi tiene una vida de " << zombi2.getVida() << endl;
+    cout << "El zombi tiene un daño de " << zombi2.getDanio() << endl;
+    cout << "El zombi tiene una velocidad de ataque de " << zombi2.getVelocidadAtaque() << endl;
+    cout << "La posicion X del zombie es: " << zombi2.getPosicionX() << endl;
+    zombi2.aparecer();
+    zombi2.moverse();
+    zombi2.quema();
     cout << endl;
 
     Proyectil proyectil1("Imagen/Proyectil");

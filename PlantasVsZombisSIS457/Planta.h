@@ -48,5 +48,3 @@ public:
 	void setVelocidadAtaque(float _velocidadAtaque) { velocidadAtaque = _velocidadAtaque; }
 
 };
-
-

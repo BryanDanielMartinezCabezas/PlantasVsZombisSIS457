@@ -1,4 +1,8 @@
 #include "ZombiPuerta.h"
+ZombiPuerta::ZombiPuerta()
+{
+	int vida = 100;
+}
 void ZombiPuerta::puertas()
 {
 	direccionY = 1;
